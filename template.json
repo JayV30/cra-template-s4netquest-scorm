@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "react-app-polyfill": ">=1.0.3",
+    "react-router-dom": ">=5.1.2",
+    "env-cmd": ">=10.1.0",
+    "node-sass": ">=4.13.1",
+    "react-scorm-provider": ">=0.1.5",
+    "simple-scorm-packager": ">=0.2.5"
+  },
+  "scripts": {
+    "install-dev-deps": "npx -p @storybook/cli sb init --type react_scripts && npm install --save-dev @storybook/addon-actions @storybook/addon-info @storybook/addon-knobs @storybook/addon-links @storybook/addons storybook-react-router",
+    "build:stage": "env-cmd -f .env.staging npm run build",
+    "build:scorm": "env-cmd -f .env.production npm run build && node scoPackager.js",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  }
+}
