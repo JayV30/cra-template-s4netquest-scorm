@@ -1,6 +1,6 @@
 {
   "name": "cra-template-s4netquest-scorm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "react",
     "create-react-app",
@@ -11,16 +11,17 @@
   ],
   "description": "S4 NetQuest scorm CRA template. Absolute imports, sass, bulma, scorm api communication, scorm packaging, and our preferred directory structure.",
   "main": "template.json",
+  "author": "S4 NetQuest",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JayV30/cra-template-s4netquest-scorm.git"
+    "url": "https://github.com/S4-NetQuest/cra-template-s4netquest-scorm.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/JayV30/cra-template-s4netquest-scorm/issues"
+    "url": "https://github.com/S4-NetQuest/cra-template-s4netquest-scorm/issues"
   },
   "files": [
     "template",

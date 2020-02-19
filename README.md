@@ -1,5 +1,9 @@
 # CREATE REACT APP TEMPLATE
-## S4 NetQuest : scorm
+## S4 NetQuest : scorm v1.0.1
+
+Presented by:
+
+<a href="https://s4netquest.com"><img src="https://s4-netquest.github.io/react-scorm-provider/images/s4-logo.png" alt="S4 NetQuest Logo" style="display: block; width: 100%; max-width: 250px;" /></a>
 
 This custom Create-React-App (CRA) template is specific to the S4 NetQuest development process. It includes our most commonly utilized npm packages and project structure, in addition to a SCORM API connector and SCORM packager. The intended final delivery target for a React app built with this template is an LMS. Anyone is welcome to use this template, however it may change at any time without notice and with minimal regard to your use case (please fork your own version if you really like it). Here is what this template includes in addition to the CRA defaults:
 
